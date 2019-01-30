@@ -8,7 +8,7 @@
 <%@ include file="/WEB-INF/views/cabecalho.jsp" %>
 		
 		<div class="container">
-			<h1>Criar Post</h1>
+			<h1>Criar um novo Post</h1>
 			<br><br><br><br>
 			
 			<form action="${s:mvcUrl('PC#gravar').build()}" method="POST">
